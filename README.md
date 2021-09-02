@@ -6,7 +6,9 @@ Nele eu fiz um pequeno site simulando uma biblioteca de filmes e usando algúmas
 
 Na página inicial há o consumo de uma Api ('https://sujeitoprogramador.com/r-api/?api=f') onde, usando o AXIOS, foi renderizado cada filme, com sua foto, nome do filme e um botão para acessa-lo.
 
-![ScreenShot](https://prnt.sc/1r28fst)
+<p align="center">
+  <img src="src/assets/img 1.png"/>
+<p/>
 
 Ao clicar em acessar é passado o ID do filme via parâmetro {useParams} do router-dom, salvo no ciclo de vida {useState} filme e visualizado pelo usuário na página.
 
