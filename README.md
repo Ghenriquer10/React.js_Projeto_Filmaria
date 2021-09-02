@@ -12,15 +12,21 @@ Na página inicial há o consumo de uma Api ('https://sujeitoprogramador.com/r-a
 
 Ao clicar em acessar é passado o ID do filme via parâmetro {useParams} do router-dom, salvo no ciclo de vida {useState} filme e visualizado pelo usuário na página.
 
-![ScreenShot](https://prnt.sc/1r28fst)
+<p align="center">
+  <img src="src/assets/img 2.png"/>
+<p/>
 
 Ao clicar em salvar, o filme é salvo no localStorage do usuário e todos podem ser vistos na Route favoritos, onde é possível acessar os detalhes do filme e excluí-los dos favoritos.
 
-![ScreenShot](https://prnt.sc/1r290k1)
+<p align="center">
+  <img src="src/assets/img 3.png"/>
+<p/>
 
 Há pequenos detalhes como, por exemplo, tentar acessar páginas que não existem.
 
-![ScreenShot](https://prnt.sc/1r295xh)
+<p align="center">
+  <img src="src/assets/img 4.png"/>
+<p/>
 
 E acessar o trailer no youtube.
 
