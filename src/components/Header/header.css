@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 30px;
+    
+}
+
+.principal{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.favoritos{
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 30px 0 30px 0;
+}
+
+.favoritos:hover{
+    border-radius: 10px;
+    transition: all 0.7s;
+    background-color: white;
+    color: red;
+}
+
+
+

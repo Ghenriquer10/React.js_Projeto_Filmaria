@@ -1,0 +1,61 @@
+.container2{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container2 img{
+    width: 1200px;
+    height: 500px;
+}
+
+.titulo-filme{
+    margin-bottom: 30px;
+    font-size: 3em;
+    background-color: red;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo-sinopse{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.save, .trailer{
+    padding: 10px;
+    margin-right: 10px;
+    background-color: red;
+    border: 1px solid white;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.save{
+    font-size: 2em;
+    color: white;
+}
+
+.trailer:hover, .save:hover{
+    transition: all 0.8s;
+    background-color: white;
+    color: red;
+    
+}
+
