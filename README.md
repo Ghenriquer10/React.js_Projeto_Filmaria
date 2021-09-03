@@ -4,7 +4,7 @@ Um pequeno projeto para estudo utilizando React.js.
 
 Nele eu fiz um pequeno site simulando uma biblioteca de filmes e usando algúmas funcionalidades de react.js, como ciclo de vida com o useEffect e useState, usei também o link, useParams e useHistory do react-router-dom, e ToastContainer do ReactToastify.
 
-## link do projeto após deploy do build: https://projeto-react-filmes.netlify.app/
+## link do projeto após deploy da build: https://projeto-react-filmes.netlify.app/
 
 Na página inicial há o consumo de uma Api ('https://sujeitoprogramador.com/r-api/?api=f') onde, usando o AXIOS, foi renderizado cada filme, com sua foto, nome do filme e um botão para acessa-lo.
 
